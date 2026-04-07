@@ -17,24 +17,4 @@ Step.4: Goto Your Root Folder And Start your python server to see your Chat Hist
  - `python3 -m http.server 8080`
 Goto Browser and Typer Your  - `http://yourip:8080`
 
-# Watch Video For More Information.
-[![YouTube Video](https://img.youtube.com/vi/x4cDTEwlwuo/0.jpg)](https://www.youtube.com/watch?v=x4cDTEwlwuo)
 
-# Check Out More [Hacking Course](https://linuxndroid.in)
-
-# Disclaimer
-<b>Linuxndroid Provides no warranty with this software and will not be responsible for any direct or indirect damage caused due to the usage of this tool.<br>
-DroidSpy is built for both Educational and Internal use ONLY.</b>
-
-<br>
-<p align="center">Made with ❤️ By <a href="https://www.youtube.com/channel/UC2O1Hfg-dDCbUcau5QWGcgg">Linuxndroid</a></p>
-
-# Credit [chrrel](https://github.com/chrrel)
-
-# Follow Me on :
-
-[![Instagram](https://img.shields.io/badge/IG-linuxndroid-yellowgreen?style=for-the-badge&logo=instagram)](https://www.instagram.com/linuxndroid)
-
-[![Youtube](https://img.shields.io/badge/Youtube-linuxndroid-redgreen?style=for-the-badge&logo=youtube)](https://www.youtube.com/channel/UC2O1Hfg-dDCbUcau5QWGcgg)
-
-[![Browser](https://img.shields.io/badge/Website-linuxndroid-yellowred?style=for-the-badge&logo=browser)](https://www.linuxndroid.com)
