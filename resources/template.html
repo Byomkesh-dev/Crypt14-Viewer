@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WhatsApp Export</title>
+    <style>
+        $css_code
+        .chat:target ~ #empty-state, .chat.active ~ #empty-state { display: none !important; }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <div id="sidebar">
+            <h2>Chats</h2>
+            $chats_list
+        </div>
+        <div id="content">
+            $chat_contents
+            <div id="empty-state" style="display: flex; align-items: center; justify-content: center; height: 100%; width: 100%; position: absolute; top: 0; left: 0; color: #888; font-size: 18px; z-index: 1;">
+                <div>Select a chat to view messages</div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $js_code
+    </script>
+</body>
+</html>

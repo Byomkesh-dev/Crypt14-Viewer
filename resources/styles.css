@@ -1,0 +1,35 @@
+body { font-family: sans-serif; margin: 0; padding: 0; height: 100vh; overflow: hidden; background: #e5ddd5;}
+#app { display: flex; height: 100vh; }
+#sidebar { width: 350px; background: #fff; border-right: 1px solid #ddd; overflow-y: auto; display: flex; flex-direction: column; }
+#sidebar h2 { margin: 0; padding: 20px; background: #f0f2f5; border-bottom: 1px solid #ddd; font-size: 16px; position: sticky; top: 0; z-index: 10; }
+#content { flex: 1; overflow-y: auto; padding: 20px; background-image: url('https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png'); position: relative; }
+.chat-partner { padding: 10px 15px; border-bottom: 1px solid #f2f2f2; cursor: pointer; transition: background 0.2s; }
+.chat-partner:hover { background: #f5f6f6; }
+.chat-partner a { text-decoration: none; color: inherit; display: block; }
+.chat-partner a div { font-size: 0.85em; color: #667781; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-top: 4px; }
+.chat { display: none; max-width: 800px; margin: 0 auto; padding-bottom: 20px; }
+.chat:target { display: block; }
+.chat.active { display: block; }
+
+.message {
+    padding: 8px 12px;
+    background: #fff;
+    border-radius: 7.5px;
+    margin-bottom: 8px;
+    max-width: 65%;
+    position: relative;
+    clear: both;
+    float: left;
+    box-shadow: 0 1px 0.5px rgba(11,20,26,.13);
+    word-wrap: break-word;
+}
+.message.sent {
+    background: #d9fdd3;
+    float: right;
+}
+.sender { font-weight: 500; font-size: 0.8em; color: #1fa855; margin-bottom: 3px; display: block; }
+.sent .sender { color: #53bdeb; }
+.time { font-size: 0.68em; color: #667781; display: block; text-align: right; margin-top: 4px; }
+
+/* Clearfix for messages */
+.message::after { content: ""; display: table; clear: both; }
